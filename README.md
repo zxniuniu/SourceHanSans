@@ -1,1 +1,3 @@
-# SourceHanSansCN
+请注意jsPDF的字体在生成js文件时，不能修改字体文件名称，采用fontconverter生成时，也不能修改fontName字段值，生成的js文件最后采用addFileToVFS也不能修改参数名称，最终使用时的文件名称为字体-Normal，或字体-Bold，第二个参数为normal，即将不同类型的字体当作不同的字体对待。
+
+具体可参见：
